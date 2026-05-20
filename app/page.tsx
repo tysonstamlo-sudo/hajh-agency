@@ -1,139 +1,53 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white flex flex-col items-center px-6 py-20">
+    <main className="min-h-screen bg-black text-white">
 
       {/* HERO */}
-      <h1 className="text-5xl font-bold tracking-tight">
-  HAJH AI AGENCY
-</h1>
+      <div
+        className="h-[70vh] flex items-center justify-center text-center px-6"
+        style={{
+          backgroundImage:
+            "url('https://images.unsplash.com/photo-1584551246679-0daf3d275d0f')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="bg-black/60 p-8 rounded-xl">
 
-<p className="mt-6 text-lg text-gray-300">
-  We build AI systems that automate businesses, generate leads, and increase revenue.
-</p>
+          <h1 className="text-5xl font-bold">
+            For Most Galaxy Hajj Agency
+          </h1>
 
-<div className="mt-10 flex gap-4 justify-center">
-  <button className="px-6 py-3 bg-white text-black font-semibold rounded-xl hover:opacity-80">
-    Book a Demo
-  </button>
+          <p className="text-gray-200 mt-4 text-lg">
+            Your trusted partner for Hajj & Umrah journeys to Makkah
+          </p>
 
-  <button className="px-6 py-3 border border-gray-700 rounded-xl hover:bg-gray-900">
-    See Services
-  </button>
-</div>
+          <div className="mt-6 flex gap-4 justify-center">
 
-      {/* SERVICES */}
-      <section className="mt-24 w-full max-w-4xl">
+            <a href="/packages" className="bg-white text-black px-6 py-3 rounded-lg">
+              View Packages
+            </a>
 
-  <h2 className="text-2xl font-semibold text-center">
-    What We Do
-  </h2>
+            <a href="/book" className="border border-white px-6 py-3 rounded-lg">
+              Book Now
+            </a>
 
-  <div className="mt-10 grid md:grid-cols-3 gap-6">
+          </div>
 
-    <div className="p-6 border border-gray-800 rounded-xl">
-      <h3 className="font-semibold">AI Content</h3>
-      <p className="text-gray-400 mt-2 text-sm">
-        Short-form videos for TikTok, Reels, and YouTube Shorts.
-      </p>
-    </div>
+        </div>
+      </div>
 
-    <div className="p-6 border border-gray-800 rounded-xl">
-      <h3 className="font-semibold">AI Automation</h3>
-      <p className="text-gray-400 mt-2 text-sm">
-        Automate business workflows and save time.
-      </p>
-    </div>
+      {/* INFO SECTION */}
+      <section className="p-10 text-center">
+        <h2 className="text-3xl font-semibold">
+          Plan Your Spiritual Journey with Confidence
+        </h2>
 
-    <div className="p-6 border border-gray-800 rounded-xl">
-      <h3 className="font-semibold">Lead Generation</h3>
-      <p className="text-gray-400 mt-2 text-sm">
-        Systems that bring consistent customers.
-      </p>
-    </div>
-
-  </div>
-
-</section><section className="mt-24 w-full max-w-4xl">
-
-  <h2 className="text-2xl font-semibold text-center">
-    Pricing
-  </h2>
-
-  <div className="mt-10 grid md:grid-cols-3 gap-6">
-
-    <div className="p-6 border border-gray-800 rounded-xl">
-      <h3 className="font-semibold">Starter</h3>
-      <p className="text-2xl mt-2">$500</p>
-      <p className="text-gray-400 mt-2 text-sm">
-        Basic AI content system for small businesses.
-      </p>
-    </div>
-
-    <div className="p-6 border border-gray-800 rounded-xl">
-      <h3 className="font-semibold">Growth</h3>
-      <p className="text-2xl mt-2">$2,000</p>
-      <p className="text-gray-400 mt-2 text-sm">
-        AI automation + content + lead generation.
-      </p>
-    </div>
-
-    <div className="p-6 border border-gray-800 rounded-xl">
-      <h3 className="font-semibold">Scale</h3>
-      <p className="text-2xl mt-2">$5,000</p>
-      <p className="text-gray-400 mt-2 text-sm">
-        Full AI system for scaling and automation.
-      </p>
-    </div>
-
-  </div>
-
-</section><section className="mt-24 w-full max-w-2xl mx-auto text-center">
-
-  <h2 className="text-2xl font-semibold">
-    Book a Demo
-  </h2>
-
-  <p className="text-gray-400 mt-3">
-    Leave your details and we’ll contact you.
-  </p>
-
-  <section className="mt-24 w-full max-w-2xl mx-auto text-center">
-
-  <h2 className="text-2xl font-semibold">
-    Book a Demo
-  </h2>
-
-  <p className="text-gray-400 mt-3">
-    Contact us instantly
-  </p>
-
-  <div className="mt-8 flex flex-col gap-4">
-
-    <a
-      href="https://wa.me/0615767075"
-      target="_blank"
-      className="p-3 bg-green-500 text-black font-semibold rounded-xl"
-    >
-      Chat on WhatsApp
-    </a>
-
-    <a
-      href="mailto:tysonstamlo@gmail.com"
-      className="p-3 border border-gray-700 rounded-xl"
-    >
-      Send Email
-    </a>
-
-  </div>
-
-</section>
-
-</section>
-
-      {/* FOOTER */}
-      <footer className="mt-32 text-gray-500">
-        © HAJH Agency
-      </footer>
+        <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
+          We provide complete Hajj and Umrah packages including flights,
+          accommodation, visa assistance, and guided support.
+        </p>
+      </section>
 
     </main>
   );
