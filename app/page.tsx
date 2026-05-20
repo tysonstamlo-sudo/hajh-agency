@@ -15,7 +15,7 @@ export default function Home() {
         <div className="bg-black/60 p-8 rounded-xl">
 
           <h1 className="text-5xl font-bold">
-            For Most Galaxy Hajj Agency
+            For Most Galaxy Hajj Agency updates
           </h1>
 
           <p className="text-gray-200 mt-4 text-lg">
